@@ -1,10 +1,45 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: rgb(255, 255, 255);
+}
+#nav_bar{
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+}
+#campusXpress_logo img{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+#campusXpress_setup{
+    display: flex;
+    flex-direction: row;
+    margin-left:auto ;
+    margin-right: 4rem;
+    /* justify-content: space-between; */
+}
+#register,#login{
+    margin: 0.5rem 1rem 0.3rem 1rem;
+}
+#register_btn{
+    height: 2rem;
+    width: 18rem;
+}
+#login_btn{
+    height: 2rem;
+    width: 10rem;
+}
+#login_btn,#register_btn{
+    background: transparent;
+    /* border: none; */
+    border-radius: 26px;
 }
 
 #services{
@@ -14,16 +49,22 @@ body {
     justify-content: center;
 }
 .services_box{
-    height: 6rem;
+    height: 6.5rem;
     width: 6rem;
     border-radius: 6px;
-    border: 2px solid black;
+    background: bisque;
+    /* border: 2px solid black; */
     margin: 24px 12px 0px 12px;
 }
 .services_image img{
     
     height: 4rem;
     width: 4rem;
-    /* justify-items: center
-    ; */
+    margin:1rem 1rem 0.2rem 1rem ;
+    /* justify-items: center; */
+}
+.services_heading h4{
+    text-align: center;
+    font-size: 0.8rem;
+    /* color: beige; */
 }
