@@ -1,101 +1,70 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: rgb(255, 255, 255);
 }
-
-#top {
-    /* background: url("https://images.unsplash.com/photo-1607113364993-4f639eb54ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
-    top: 0%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
-}
-
-#front {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content:space-between ;
-    justify-content: space-around;
-}
-
-.logo img {
-    padding-top: 1rem;
-    /* padding-left: 15rem; */
-    border-radius: 0%;
-}
-
-.options {
-    display: flex;
-    /* justify-content: space-between; */
-    /* justify-content: space-around; */
-    /* justify-content: space-evenly; */
-    /* justify-content: end; */
-    padding-top: 1.5rem;
-    /* padding-left: 30rem; */
-}
-
-.options a {
-    text-decoration: none;
-    color: #000000;
-    font-size: x-large;
-}
-
-.login,
-.register {
-    margin-right: 5rem;
-}
-
-/* .login:hover,.register:hover{
-    text-decoration: none;
-    font-size: 1.5rem;
-    transform: scale(1.4);
-    border-radius: 0.5rem;
-    background-color: white;
-    cursor: pointer;
-} */
-
-.tagline {
-    padding-top: 12rem;
-    /* padding-left: 26.5rem; */
-    text-align: center;
-    font-size: 1.8rem;
-    color: #000000;
-    font-weight: 200;
-}
-
-.search {
+#nav_bar{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
-    justify-content: center;
-    padding-top: 7.5rem;
-    padding-bottom: 10rem;
-}
-.location{
-    /* padding-left: 21rem; */
-    padding-right: 5rem;
-}
-#college{
     height: 3rem;
-    width: 25rem;
-    border-radius: 5rem;
-    text-align: center;
 }
+#campusXpress_logo img{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+#campusXpress_setup{
+    display: flex;
+    flex-direction: row;
+    margin-left:auto ;
+    margin-right: 4rem;
+    /* justify-content: space-between; */
+}
+#register,#login{
+    margin: 0.5rem 1rem 0.3rem 1rem;
+}
+#register_btn{
+    height: 2rem;
+    width: 18rem;
+}
+#login_btn{
+    height: 2rem;
+    width: 10rem;
+}
+#login_btn,#register_btn{
+    background: transparent;
+    /* border: none; */
+    border-radius: 26px;
+}
+
 #services{
-    height: 3rem;
-    width: 20rem;
-    border-radius: 5rem;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.serv{
-    padding-top: 5rem; 
+.services_box{
+    height: 6.5rem;
+    width: 6rem;
+    border-radius: 6px;
+    background: bisque;
+    /* border: 2px solid black; */
+    margin: 24px 12px 0px 12px;
 }
-.servt{
-    font-size: 1.8rem;
+.services_image img{
+    
+    height: 4rem;
+    width: 4rem;
+    margin:1rem 1rem 0.2rem 1rem ;
+    /* justify-items: center; */
+}
+.services_heading h4{
     text-align: center;
+    font-size: 0.8rem;
+    /* color: beige; */
 }
