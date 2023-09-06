@@ -93,6 +93,9 @@ body {
     text-align: center;
 }
 .serv{
-    padding-top: 5rem;
-    
+    padding-top: 5rem; 
+}
+.servt{
+    font-size: 1.8rem;
+    text-align: center;
 }
