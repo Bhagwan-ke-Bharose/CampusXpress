@@ -75,7 +75,6 @@
     background-position: center;
     padding-top: 15em;
 }
-
 .typewriter h5 {
     /* display: block; */
     /* padding: 45% 0 0 0; */
@@ -97,7 +96,6 @@
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
 }
-
 /* The typing effect */
 @keyframes typing {
     from {
@@ -127,6 +125,7 @@
     border-bottom: 1.75px solid #8a8a8a;
     width: 80%;
     margin-left: 10%;
+    margin-bottom: 1.5rem;
 }
 
 .pro h3 {
@@ -141,7 +140,7 @@
     display: flex;
 	align-items: center;
 	justify-content: space-around;
-    min-height: 80vh;
+    min-height: 30vh;
 }
 
 .ui-card{
@@ -154,11 +153,11 @@
 
 .ui-card img{
     max-width: 100%;
-	transform: scale(1.3);
+	transform: scale(1.5);
 	transition: all 0.3s ease-out;
 }
 .ui-card:hover img{
-	transform: scale(1.1) translateY(-20px); 
+	transform: scale(1.1) translateY(0px); 
 	opacity: 0.3
 }
 .ui-card .description{
@@ -211,4 +210,86 @@
 .ui-card:hover .description a{
 	opacity: 1;
 	transform: translateY(0px);
+}#ft{
+    background: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 5rem;
+    width: 100%;
+    margin-top: 2rem;
 }
+#start{
+    width: 33%;
+    justify-content: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    /* border-right: 0.5%; */
+    /* border-color: #ffffff; */
+}
+.starthding{
+    
+    text-align: center;
+    margin: 0.05rem 0rem;
+    height: 1.25rem;
+}
+.starthding h4{
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+.starthding input{
+    /* background: #454545; */
+    background: transparent;
+    width: 60%;
+    border: none;
+    height: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+}
+.elg img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-left: 45%;
+}
+#middle{
+    display: flex;
+    flex-direction: row;
+    width: 34%;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+    border-left: 0.1rem solid #ffffff;
+    border-right: 0.1rem solid #ffffff;
+}
+.nm{
+    margin: 0.4rem 0.5rem;
+}
+.tnm{
+    color: #ffffff;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.hding{
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.hding h4{
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+#last{
+    width: 33%;
+    justify-content: center;
+    margin-bottom: 0.25rem;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+}
+.links i{
+    margin: 0.01rem 1rem 0.5rem 3rem;
+}
+
