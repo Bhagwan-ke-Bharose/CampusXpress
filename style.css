@@ -102,7 +102,8 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    /* color: beige; */
+    /* text-decoration: #ffffff; */
+    color: #000000;
 }
 #ft{
     background: #000000;
@@ -110,6 +111,11 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     height: 8rem;
+    width: 100%;
+}
+#start{
+    width: 33.5%;
+    justify-content: center;
 }
 .starthding{
     color: #ffffff;
@@ -128,14 +134,16 @@ body {
     color: #ffffff;
 }
 .elg img{
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
-    margin-left: 5rem;
+    margin-left: 45%;
 }
 #middle{
     display: flex;
     flex-direction: column;
+    width: 33%;
+    justify-content: center;
     /* margin-top: 1rem; */
 }
 .nm{
@@ -144,17 +152,24 @@ body {
 .tnm{
     color: #ffffff;
     font-size: 2rem;
+    margin-left: 8rem;
 }
 .hding{
     color: #ffffff;
+    margin-top: 1rem;
     font-size: 2rem;
     text-align: center;
     /* margin-top: 1rem; */
 }
+#last{
+    width: 33.5%;
+    justify-content: center;
+}
 .links{
     display: flex;
     flex-direction: row;
+    margin-left: 3rem;
 }
 .links i{
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 3rem;
 }
