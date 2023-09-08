@@ -265,11 +265,12 @@
     border-right: 0.1rem solid #ffffff;
 }
 .nm{
-    margin: 0.4rem 0.5rem;
+    margin: -0.2rem 0.5rem;
 }
 .tnm{
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 300;
     margin-left: 2rem;
 }
 .hding{
