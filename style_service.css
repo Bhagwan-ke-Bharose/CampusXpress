@@ -150,8 +150,9 @@
 .ser {
     /* margin-top: 40px; */
     display: flex;
+    flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
     min-height: 30vh;
 }
 
@@ -161,6 +162,7 @@
 	overflow: hidden;
 	transition: all 0.3s ease-out;
 	background:radial-gradient(#111 50%, #000 100%);
+    margin: 1rem 1rem;
 }
 
 .ui-card img{
