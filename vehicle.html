@@ -7,13 +7,15 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style_service.css">
+    <link rel="stylesheet" href="style_vehicle.css">
+    <link rel="stylesheet" href="style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
-
-    <title>CampusXpress</title>
-    <link rel="website icon" id="web_icon" type="png" href="./logo/campusXpress_logo_inverted.png" style="border-radius: 50%;">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>campusXpress</title>
 </head>
 
 <body>
@@ -24,93 +26,53 @@
         </a>
         <!-- <h4 class="typewriter">campusXpress</h4> -->
         <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search For Hall" aria-label="Search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search For Carpenter" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
     </nav>
-    <div class="typewriter_cleaning">
-        <!-- <h5>Crafting Dreams, Building Realities.</h5> -->
-        <h5>Your Campus, Our Services, Your Way.</h5>
+    <div class="typewriter1">
+        <h5>Driving Dreams, Delivering Adventures.</h5>
     </div>
     <div class="pro">
-        <h3>HALL OF RESIDENCE</h3>
+        <h3>Rent Vehicles</h3>
     </div>
-    <div class="ser">
-        <div class="ui-card">
-            <img src="https://website.nitrkl.ac.in/images/Halls/CVR.png">
-            <div class="description">
-                <h3>C.V.R. Hall of Residence</h3>
-                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
-                <a href="#">Read More</a>
+    <div class="ser" id="meme">
+        <div class="ser1">
+            <div class="ui-card">
+                <img src="./logo/pexels-negative-space-97075.jpg">
+                <div class="description">
+                    <h3>Carpenter</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Vehicles Available
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" onclick="return change1();">Ducati</a>
+                    <a class="dropdown-item" onclick="return change2()">KTM</a>
+                    <a class="dropdown-item" onclick="return change3()">BMW</a>
+                    <a class="dropdown-item" onclick="return change4()">Mercedes</a>
+                    <a class="dropdown-item" onclick="return change5()">Regera</a>
+                    <a class="dropdown-item" onclick="return change6()">Buggati Vtyron</a>
+                </div>
+            </div>
+            <div class="ser3">
+                <button type="button" class="btn btn-light" onclick="window.location.href = 'rent.html'">Apply</button>
             </div>
         </div>
-        <div class="ui-card">
-            <img src="https://website.nitrkl.ac.in/images/Halls/DBA.png">
-            <div class="description">
-                <h3>D.B.A. Hall of Residence</h3>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
-                <a href="#">Read More</a>
-            </div>
-        </div>
-        <div class="ui-card">
-            <img src="https://website.nitrkl.ac.in/images/Halls/GDB.png">
-            <div class="description">
-                <h3>G.D.B. Hall of Residence</h3>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
-                <a href="#">Read More</a>
-            </div>
-        </div>
-    </div>
-    <div class="ser">
-        <div class="ui-card">
-            <img src="https://website.nitrkl.ac.in/images/Halls/HBH.png">
-            <div class="description">
-                <h3>H.B. Hall of Residence</h3>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
-                <a href="#">Read More</a>
-            </div>
-        </div>
-        <div class="ui-card">
-            <img src="https://website.nitrkl.ac.in/images/Halls/KMS.png">
-            <div class="description">
-                <h3>K.M.S. Hall of Residence</h3>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
-                <a href="#">Read More</a>
-            </div>
-        </div>
-        <div class="ui-card">
-            <img src="https://website.nitrkl.ac.in/images/Halls/MSH.png">
-            <div class="description">
-                <h3>M.S.S. Hall of Residence</h3>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
-                <a href="#">Read More</a>
-            </div>
-        </div>
-    </div>
-    <div class="ser">
-        <div class="ui-card">
-            <img src="https://website.nitrkl.ac.in/images/Halls/MVH.png">
-            <div class="description">
-                <h3>M.V. Hall of Residence</h3>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
-                <a href="#">Read More</a>
-            </div>
-        </div>
-        <div class="ui-card">
-            <img src="https://website.nitrkl.ac.in/images/Halls/SDH.png">
-            <div class="description">
-                <h3>S.D. Hall of Residence</h3>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
-                <a href="#">Read More</a>
-            </div>
-        </div>
-        <div class="ui-card">
-            <img src="https://website.nitrkl.ac.in/images/Halls/VSH.png">
-            <div class="description">
-                <h3>V.S. Hall of Residence</h3>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
-                <a href="#">Read More</a>
-            </div>
+
+        <div class="ser2"> 
+            <img src="" alt="Select the Vehicle" class="img-thumbnail" id="image" style="height: 0; border: none;">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item fir"></li>
+                <li class="list-group-item" id="detail1" style="border: none; font-size: 40px;">Select the Vehicle</li>
+                <li class="list-group-item" id="detail2" style="border: none;"></li>
+                <li class="list-group-item" id="detail3" style="border: none;"></li>
+                <li class="list-group-item" id="detail4" style="border: none;"></li>
+              </ul>
         </div>
     </div>
     <footer class="footer">
@@ -129,16 +91,29 @@
                     <ul>
                         <li><a href="#">about us</a></li>
                         <li><a href="#">our services</a></li>
+                        <!-- <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li> -->
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>get help</h4>
                     <ul>
                         <li><a href="#">FAQ</a></li>
+                        <!-- <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li> -->
                         <li><a href="#">Apply status</a></li>
                         <li><a href="#">Payment options</a></li>
                     </ul>
                 </div>
+                <!-- <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div> -->
                 <div class="footer-col">
                     <h4>follow us</h4>
                     <div class="social-links">
@@ -151,7 +126,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://kit.fontawesome.com/3d04685e57.js" crossorigin="anonymous"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -161,6 +136,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="index.js"></script>
 </body>
 
 </html>
