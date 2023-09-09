@@ -9,6 +9,7 @@ function change1() {
     let detail2 = document.getElementById('detail2');
     let detail3 = document.getElementById('detail3');
     let detail4 = document.getElementById('detail4');
+    let detail5 = document.getElementById('detail5');
     detail1.innerHTML = "Vehicle Name: Ducati";
     detail1.style.border = "1px solid rgba(0,0,0, .125)"; 
     detail1.style.fontSize = "15px";
@@ -26,6 +27,11 @@ function change1() {
     detail4.style.fontWeight = "500";
     detail4.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
     detail4.style.fontSize = "15px";
+    detail5.innerHTML = "Retailer Address: Kausik Travels & Bike Rentals, Near NIT Rourkela Jagda Gate, Jagda Chawk, Rourkela, Odisha-769005";
+    detail5.style.border = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontWeight = "500";
+    detail5.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontSize = "15px";
     // document.getElementsByClassName('ser2').appendChild(img);
     // element.classList.add("img-thumbnail");
 }
@@ -38,6 +44,7 @@ function change2() {
     let detail2 = document.getElementById('detail2');
     let detail3 = document.getElementById('detail3');
     let detail4 = document.getElementById('detail4');
+    let detail5 = document.getElementById('detail5');
     detail1.innerHTML = "Vehicle Name: Ducati";
     detail1.style.border = "1px solid rgba(0,0,0, .125)"; 
     detail1.style.fontSize = "15px";
@@ -55,6 +62,12 @@ function change2() {
     detail4.style.fontWeight = "500";
     detail4.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
     detail4.style.fontSize = "15px";
+    detail5.innerHTML = "Retailer Address: Kausik Travels & Bike Rentals, Near NIT Rourkela Jagda Gate, Jagda Chawk, Rourkela, Odisha-769005";
+    detail5.style.border = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontWeight = "500";
+    detail5.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontSize = "15px";
+    
 }
 function change3() {
     let img = document.getElementById('image');
@@ -65,6 +78,7 @@ function change3() {
     let detail2 = document.getElementById('detail2');
     let detail3 = document.getElementById('detail3');
     let detail4 = document.getElementById('detail4');
+    let detail5 = document.getElementById('detail5');
     detail1.innerHTML = "Vehicle Name: Ducati";
     detail1.style.border = "1px solid rgba(0,0,0, .125)"; 
     detail1.style.fontSize = "15px";
@@ -82,6 +96,12 @@ function change3() {
     detail4.style.fontWeight = "500";
     detail4.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
     detail4.style.fontSize = "15px";
+    detail5.innerHTML = "Retailer Address: Kausik Travels & Bike Rentals, Near NIT Rourkela Jagda Gate, Jagda Chawk, Rourkela, Odisha-769005";
+    detail5.style.border = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontWeight = "500";
+    detail5.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontSize = "15px";
+    
 }
 function change4() {
     let img = document.getElementById('image');
@@ -92,6 +112,7 @@ function change4() {
     let detail2 = document.getElementById('detail2');
     let detail3 = document.getElementById('detail3');
     let detail4 = document.getElementById('detail4');
+    let detail5 = document.getElementById('detail5');
     detail1.innerHTML = "Vehicle Name: Ducati";
     detail1.style.border = "1px solid rgba(0,0,0, .125)"; 
     detail1.style.fontSize = "15px";
@@ -109,6 +130,12 @@ function change4() {
     detail4.style.fontWeight = "500";
     detail4.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
     detail4.style.fontSize = "15px";
+    detail5.innerHTML = "Retailer Address: Kausik Travels & Bike Rentals, Near NIT Rourkela Jagda Gate, Jagda Chawk, Rourkela, Odisha-769005";
+    detail5.style.border = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontWeight = "500";
+    detail5.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontSize = "15px";
+    
 }
 function change5() {
     let img = document.getElementById('image');
@@ -119,6 +146,7 @@ function change5() {
     let detail2 = document.getElementById('detail2');
     let detail3 = document.getElementById('detail3');
     let detail4 = document.getElementById('detail4');
+    let detail5 = document.getElementById('detail5');
     detail1.innerHTML = "Vehicle Name: Ducati";
     detail1.style.border = "1px solid rgba(0,0,0, .125)"; 
     detail1.style.fontSize = "15px";
@@ -136,6 +164,12 @@ function change5() {
     detail4.style.fontWeight = "500";
     detail4.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
     detail4.style.fontSize = "15px";
+    detail5.innerHTML = "Retailer Address: Kausik Travels & Bike Rentals, Near NIT Rourkela Jagda Gate, Jagda Chawk, Rourkela, Odisha-769005";
+    detail5.style.border = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontWeight = "500";
+    detail5.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontSize = "15px";
+    
 }
 function change6() {
     let img = document.getElementById('image');
@@ -146,6 +180,7 @@ function change6() {
     let detail2 = document.getElementById('detail2');
     let detail3 = document.getElementById('detail3');
     let detail4 = document.getElementById('detail4');
+    let detail5 = document.getElementById('detail5');
     detail1.innerHTML = "Vehicle Name: Ducati";
     detail1.style.border = "1px solid rgba(0,0,0, .125)"; 
     detail1.style.fontSize = "15px";
@@ -163,6 +198,12 @@ function change6() {
     detail4.style.fontWeight = "500";
     detail4.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
     detail4.style.fontSize = "15px";
+    detail5.innerHTML = "Retailer Address: Kausik Travels & Bike Rentals, Near NIT Rourkela Jagda Gate, Jagda Chawk, Rourkela, Odisha-769005";
+    detail5.style.border = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontWeight = "500";
+    detail5.style.borderBottom = "1px solid rgba(0,0,0, .125)"; 
+    detail5.style.fontSize = "15px";
+    
 }
 let subtotal1 = 0;
 let subtotal2 = 0;
