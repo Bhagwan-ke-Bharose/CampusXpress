@@ -8,10 +8,12 @@ loginForm.addEventListener('submit', function (e) {
     const password = loginForm.password.value;
 
     if (username === 'username' && password === 'password') {
-        window.location.href = "index.html";
+        window.location.href = "index_login.html";
        
     } else {
         
         errorMessage.textContent = 'Invalid username or password. Please try again.';
     }
 });
+
+

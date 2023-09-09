@@ -155,6 +155,57 @@ label {
     
     border-radius: 26px;
 } 
+#customer_details{
+    display: flex;
+    flex-direction: row;
+    margin-left:auto ;
+    margin-right: 0rem;
+    cursor: pointer;
+}
+#customer_name{
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#customer_logo img{
+     height: 3rem;
+     width: 3rem;
+     margin: 0.75rem;
+}
+#profile_option{
+    
+    position: absolute;
+    width: 14rem;
+    display: none;
+    flex-direction: column;
+    z-index: 4;
+    margin-left: 80rem;
+
+    /* background: #c0c0c0; */
+    /* left: auto; */
+}
+#po_1,#po_2,#po_3{
+    animation: dropdown 0.3s linear 1;
+}
+
+.profile_option_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3rem;
+    width: 14rem;
+    background: #fff;
+    margin-top: 0rem ;
+    /* border: 0.5px solid black; */
+    /* margin-left: 80rem; */
+    /* z-index: 5; */
+    
+}
+.profile_option_image img{
+    height: 3rem;
+    width: 3rem;
+}
 .box {
     margin: 0;
     width: 40%;
@@ -401,6 +452,16 @@ label {
 .links i{
     margin: 0.01rem 1rem 0.5rem 3rem;
 }
+@keyframes dropdown {
+    0%{
+        transform:scaleY(0);
+    }
+    100%{
+        transform:scaleY(1);
+    }
+    
+}
+
 ::-webkit-scrollbar {
     width: .2em;
 }
