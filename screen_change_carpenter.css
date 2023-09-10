@@ -1,3 +1,24 @@
-.typewriter_carpenter,.typewriter_cleaning,.typewriter_laundry,.typewriter_electrician,.typewriter_painter h5{
+.typewriter_carpenter,.typewriter_cleaning,.typewriter_laundry,.typewriter_electrician,.typewriter_painter,.typewriter1 h5{
     font-size: 0.9rem;
+}
+.ser {
+    /* margin-top: 40px; */
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+    min-height: 80vh;
+    width: 300px;
+}
+.ui-card{
+	width: 200px;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s ease-out;
+	background:radial-gradient(#111 50%, #000 100%);
+}
+.ui-card img{
+    max-width: 100%;
+	transform: scale(1.5);
+	transition: all 0.3s ease-out;
 }
