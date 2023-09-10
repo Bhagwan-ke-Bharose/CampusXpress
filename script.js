@@ -1,4 +1,4 @@
-const searchInput = document.getElementById('search-input');
+const searchInput = document.getElementById('college');
 const searchResults = document.getElementById('search-results');
 
 
