@@ -7,7 +7,7 @@ loginForm.addEventListener('submit', function (e) {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === 'username' && password === 'password') {
+    if (username === 'sample_username' && password === 'password') {
         window.location.href = "index_login.html";
        
     } else { 
