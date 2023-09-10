@@ -263,7 +263,7 @@ label {
     margin-top: 50px;
 }
 
-#search-input {
+#college {
     width: 40rem;
     height: 3.2rem;
     padding: 10px;
@@ -280,11 +280,11 @@ label {
 
 }
 
-#search-input::placeholder {
+#college::placeholder {
     color: #999;
 }
 
-#search-input:focus {
+#college:focus {
     border-color: #c0c0c0;
 }
 
