@@ -87,7 +87,7 @@ label {
     font-size: 1rem;
     outline: none;
 }
-#college,#username,#password,#confirm-password,#collegeId,#phoneNumber,#services-option {
+#college,#username,#password,#confirm-password,#collegeId,#phoneNumber,#services-option,#business-name,#address,#emailId {
     height: 1.5rem;
     width: 30rem;
     padding: 0.35rem; 
