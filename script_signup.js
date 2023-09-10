@@ -11,9 +11,12 @@ const collegeError = document.getElementById("college-error");
 const usernameError = document.getElementById("username-error");
 const passwordError = document.getElementById("password-error");
 const confirmPasswordError = document.getElementById("confirm-password-error");
+const signUp = document.getElementById("signup-button");
+const errorMessage = document.getElementById('error-message');
+let valid = true;
 
-signupForm.addEventListener("submit", function (e) {
-    let valid = true;
+ function validateForm() {
+    valid = true; 
 
     if (firstName.value.trim() === "") {
         firstNameError.textContent = "First Name is required.";
@@ -56,11 +59,18 @@ signupForm.addEventListener("submit", function (e) {
     } else {
         confirmPasswordError.textContent = "";
     }
-    
-    if (valid) {
-        alert("form submitted")
-        window.location.href = 'index_login.html'; 
-    } else {
+    return valid;
+
+};
+signupForm.addEventListener("submit", function (e) {
+    if (!validateForm()) {
         e.preventDefault();
     }
 });
+signUp.addEventListener('click', () => {
+    if (validateForm()) {
+        window.location.href = "index_login.html";
+    } else {
+        errorMessage.textContent = 'Invalid input. Please check the form for errors.';
+    }
+});;
