@@ -98,7 +98,7 @@ title{
     /* padding: 45% 0 0 0; */
     font-family: 'Roboto Mono', monospace;
     color: #ffffff;
-    font-size: 2rem;
+    /* font-size: 0.8rem; */
     width: fit-content;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
@@ -127,7 +127,7 @@ title{
     /* padding: 45% 0 0 0; */
     font-family: 'Roboto Mono', monospace;
     color: #ffffff;
-    font-size: 2rem;
+    /* font-size: 0.8rem; */
     width: fit-content;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
@@ -156,7 +156,7 @@ title{
     /* padding: 45% 0 0 0; */
     font-family: 'Roboto Mono', monospace;
     color: #ffffff;
-    font-size: 2rem;
+    /* font-size: 0.8rem; */
     width: fit-content;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
@@ -185,7 +185,7 @@ title{
     /* padding: 45% 0 0 0; */
     font-family: 'Roboto Mono', monospace;
     color: #ffffff;
-    font-size: 2rem;
+    /* font-size: 0.8rem; */
     width: fit-content;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
@@ -214,7 +214,7 @@ title{
     /* padding: 45% 0 0 0; */
     font-family: 'Roboto Mono', monospace;
     color: #ffffff;
-    font-size: 2rem;
+    /* font-size: 0.8rem; */
     width: fit-content;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
@@ -237,7 +237,7 @@ title{
     }
 
     to {
-        width: 53%
+        width: 33%
     }
 }
 

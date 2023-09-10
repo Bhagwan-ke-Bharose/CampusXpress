@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" media="screen and (max-width:1200px)" href="screen_change_carpenter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style_service.css">
@@ -41,7 +41,7 @@
             <div class="description">
                 <h3>Aditya</h3>
                     <p>Aditya Laundry Service</p>
-                <a href="#">Read More</a>
+                    <a id="app1" onclick="demo1()">Apply</a>
             </div>
         </div>
         <div class="ui-card">
@@ -49,7 +49,7 @@
             <div class="description">
                 <h3>Ayush</h3>
                 <p>Ayush Laundry Service</p>
-                <a href="#">Read More</a>
+                <a id="app2" onclick="demo2()">Apply</a>
             </div>
         </div>
         <div class="ui-card">
@@ -57,7 +57,7 @@
             <div class="description">
                 <h3>Abhishek</h3>
                 <p>Abhishek Laundry Service</p>
-                <a href="#">Read More</a>
+                <a id="app3" onclick="demo3()">Apply</a>
             </div>
         </div>
     </div>
@@ -110,6 +110,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script>
+            function demo1() {
+                const button = document.getElementById("app1").innerHTML = "Applied";
+            }
+            function demo2() {
+                const button = document.getElementById("app2").innerHTML = "Applied";
+            }
+            function demo3() {
+                const button = document.getElementById("app3").innerHTML = "Applied";
+            }
+        </script>
 </body>
 
 </html>

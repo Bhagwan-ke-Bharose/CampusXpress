@@ -3,13 +3,94 @@
     padding: 0;
 }
 #nav_bar{
-    display: none;
-    flex-direction: row;
-    height: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 7rem;
+    max-height: 12rem;
+}
+#campusXpress_setup{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-left:0rem ;
+    /* margin-right: 4rem; */
+    /* justify-content: space-between; */
 }
 #register,#login{
     font-size: 0.3rem;
+    margin: 0.4rem;
 }
+#customer_details{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-left:1rem ;
+    /* margin-right: -5rem; */
+    margin: 0px;
+    cursor: pointer;
+}
+#customer_name{
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+#customer_logo img{
+     height: 3rem;
+     width: 3rem;
+     margin: 0.75rem 0rem;
+}
+#profile_option{
+    
+    position: absolute;
+    width: 14rem;
+    display: none;
+    flex-direction: column;
+    z-index: 4;
+    margin-left: auto;
+
+    /* background: #c0c0c0; */
+    /* left: auto; */
+}
+#customer_name{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 0.75rem;
+}
+
+#customer_logo img{
+     height: 1.5rem;
+     width: 1.5rem;
+     margin: 0.75rem;
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 40px; */
+    margin-left: 35px;
+    width: 20rem;
+}
+#college {
+    width:20rem;
+    height: 3.2rem;
+    padding: 10px;
+    border-radius: 1.2rem;
+    border: 2px solid beige;
+    font-size: 1.3rem;
+    outline: none;
+    box-shadow: 6px 15px 33px 0px rgba(0,0,0,0.35);
+    /* background-color: #959595; */
+    color: #000000;
+    transition: border-color 0.3s;
+    font-weight: 350;
+    /* font-family: 'Space Grotesk', sans-serif; */
+
+}
+
 .box {
     margin: 0;
     width: 40%;
