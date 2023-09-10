@@ -10,8 +10,7 @@ loginForm.addEventListener('submit', function (e) {
     if (username === 'username' && password === 'password') {
         window.location.href = "index_login.html";
        
-    } else {
-        
+    } else { 
         errorMessage.textContent = 'Invalid username or password. Please try again.';
     }
 });

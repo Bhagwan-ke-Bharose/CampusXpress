@@ -1,4 +1,4 @@
-const form = document.getElementById("signup-form");
+const signupForm = document.getElementById("signup-form");
 const firstName = document.getElementById("first-name");
 const lastName = document.getElementById("last-name");
 const college = document.getElementById("college");
@@ -12,7 +12,7 @@ const usernameError = document.getElementById("username-error");
 const passwordError = document.getElementById("password-error");
 const confirmPasswordError = document.getElementById("confirm-password-error");
 
-form.addEventListener("submit", function (e) {
+signupForm.addEventListener("submit", function (e) {
     let valid = true;
 
     if (firstName.value.trim() === "") {
@@ -56,11 +56,10 @@ form.addEventListener("submit", function (e) {
     } else {
         confirmPasswordError.textContent = "";
     }
-
+    
     if (valid) {
-        // Simulate account creation success and redirect
-        // alert("Account created successfully. You will be redirected.");
-        window.location.href = "index.html"; // Replace "success.html" with your desired redirect URL
+        alert("form submitted")
+        window.location.href = 'index_login.html'; 
     } else {
         e.preventDefault();
     }
