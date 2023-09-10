@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style_vehicle.css">
     <link rel="stylesheet" href="style1.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -19,90 +19,77 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand">campusXpress</a>
-        <h4 class="typewriter">campusXpress</h4>
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search For Renter" aria-label="Search">
-            <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </nav> -->
-    <!-- <div class="typewriter1">
-        <h5>Driving Dreams, Delivering Adventures.</h5>
-    </div> -->
-    <div class="pro">
-        <h3>Cycles For Sale</h3>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="./logo/lg.png" alt="campusXpress_logo">
+            <h4>campusXpress</h4>
+        </a>
+        <!-- <h4 class="typewriter">campusXpress</h4> -->
+        <!-- <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search For Launderer" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+    </nav>
+    <form style="width: 50%; margin-left: 25%; margin-top: 5%;">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input class="form-control" type="text" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Roll Number</label>
+            <input class="form-control" type="text" placeholder="Number">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Phone Number</label>
+            <input class="form-control" type="text" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Selling Cost</label>
+            <input class="form-control" type="text" placeholder="Cost">
+        </div>
+        <!-- <div class="form-group">
+          <label for="exampleFormControlSelect1">Example select</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div> -->
+        <!-- <div class="form-group">
+          <label for="exampleFormControlSelect2">Example multiple select</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div> -->
+
+        <div class="form-group">
+            <label for="exampleFormControlFile1">Image of the Cycle</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlFile1">Image of the Bill</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Cycle Details</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </form>
+    <div class="ser3" style="margin-left: 50%; margin-bottom: 30px; margin-top: 30px;">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Uplaod</button>
+        
     </div>
-    <div class="rent">
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Image</th>
-                    <th scope="col">Vehicle</th>
-                    <th scope="col">Cost</th>
-                    <th scope="col">Quantity</th>
-                    <th scope="col">Subtotal</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td><img src="./logo/john-nzoka-n0iClJpvmPQ-unsplash.jpg" alt="" style="width: 70px;"></td>
-                    <td>Hero</td>
-                    <td>$1000</td>
-                    <td><input type="number" value="0" style="width: 40px;" id="val1" onclick="fun1()"></td>
-                    <td id="sub1">$0</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td><img src="./logo/ronaldo-de-oliveira-zjlKr-z9KG8-unsplash.jpg" alt="" style="width: 70px;"></td>
-                    <td>Avon</td>
-                    <td>$1000</td>
-                    <td><input type="number" value="0" style="width: 40px;" id="val2" onclick="fun2()"></td>
-                    <td id="sub2">$0</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td><img src="./logo/zoltan-tasi-WwlP3F1VksA-unsplash.jpg" alt="" style="width: 70px;"></td>
-                    <td>Nova</td>
-                    <td>$1000</td>
-                    <td><input type="number" value="0" style="width: 40px;" id="val3" onclick="fun3()"></td>
-                    <td id="sub3">$0</td>
-                </tr>
-                <tr>
-                    <th scope="row">4</th>
-                    <td><img src="./logo/john-nzoka-FoZKNrXb8Q8-unsplash.jpg" alt="" style="width: 70px;"></td>
-                    <td>Hercules</td>
-                    <td>$1000</td>
-                    <td><input type="number" value="0" style="width: 40px;" id="val4" onclick="fun4()"></td>
-                    <td id="sub4">$0</td>
-                </tr>
-                <!-- <tr> -->
-                    <!-- <th scope="row">5</th>
-                    <td><img src="./logo/eugene-tkachenko-poWsLrpntc8-unsplash2.jpg" alt="" style="width: 70px;"></td>
-                    <td>Regera</td>
-                    <td>$1000</td>
-                    <td><input type="number" value="0" style="width: 40px;" id="val5" onclick="fun5()"></td>
-                    <td id="sub5">$0</td>
-                </tr>
-                <tr>
-                    <th scope="row">6</th>
-                    <td><img src="./logo/2007-Bugatti-Veyron-review-classic-MOTOR.jpg" alt="" style="width: 70px;"></td>
-                    <td>Buggati Vtyron</td>
-                    <td>$1000</td>
-                    <td><input type="number" value="0" style="width: 40px;" id="val6" onclick="fun6()"></td>
-                    <td id="sub6">$0</td>
-                </tr> -->
-            </tbody>
-        </table>
-    </div>
-    <div class="tot">
-        <h4 id="total">Total: $0</h4>
-    </div>
-    <div class="but">
-        <button type="button" class="btn btn-light">Apply</button>
-    </div>
+
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -145,19 +132,18 @@
                 <div class="footer-col">
                     <h4>follow us</h4>
                     <div class="social-links">
-                        <a href="https://www.facebook.com/profile.php?id=61550951916439"><i
-                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61550951916439"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://twitter.com/campus23800"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/campus-xpress-b9a809290/"><i
-                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/in/campus-xpress-b9a809290/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -167,7 +153,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="index.js"></script>
 </body>
 
 </html>
