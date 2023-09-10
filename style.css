@@ -101,11 +101,15 @@ label {
 #login_button:hover {
     background-color: #050505;
 }
+#signup-page{
+    margin-top: 0.9rem;
+}
 
 .error-message {
     color: #ff5722;
     margin-top: 10px;
 }
+
 #nav_bar{
     display: flex;
     flex-direction: row;
