@@ -2,7 +2,7 @@ function change1() {
     // let img = document.createElement('img');
 
     let img = document.getElementById('image');
-    img.src = './logo/ducati.webp';
+    img.src = './logo/john-nzoka-n0iClJpvmPQ-unsplash.jpg';
     img.style.height = "300px";
     img.style.border = "1px solid #dee2e6";
     let detail1 = document.getElementById('detail1');
@@ -37,7 +37,7 @@ function change1() {
 }
 function change2() {
     let img = document.getElementById('image');
-    img.src = './logo/ktm.webp';
+    img.src = './logo/ronaldo-de-oliveira-zjlKr-z9KG8-unsplash.jpg';
     img.style.height = "300px";
     img.style.border = "1px solid #dee2e6";
     let detail1 = document.getElementById('detail1');
@@ -71,7 +71,7 @@ function change2() {
 }
 function change3() {
     let img = document.getElementById('image');
-    img.src = './logo/bmw.jpg';
+    img.src = './logo/zoltan-tasi-WwlP3F1VksA-unsplash.jpg';
     img.style.height = "300px";
     img.style.border = "1px solid #dee2e6";
     let detail1 = document.getElementById('detail1');
@@ -105,7 +105,7 @@ function change3() {
 }
 function change4() {
     let img = document.getElementById('image');
-    img.src = './logo/80-mercedes-amg-gt63-e-performance-hero.jpg';
+    img.src = './logo/john-nzoka-FoZKNrXb8Q8-unsplash.jpg';
     img.style.height = "300px";
     img.style.border = "1px solid #dee2e6";
     let detail1 = document.getElementById('detail1');
