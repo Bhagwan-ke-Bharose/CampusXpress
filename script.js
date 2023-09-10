@@ -82,9 +82,6 @@ searchResults.addEventListener('click', (e) => {
     }
 });
 
-// searchInput.addEventListener('click',()=>{
-//     document.getElementById('search-results').style.display="block";
-// })
 document.body.addEventListener('click',()=>{
     searchResults.innerHTML='';
 })

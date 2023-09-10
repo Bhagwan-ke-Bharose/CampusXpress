@@ -91,12 +91,75 @@ label {
     width: 30rem;
     padding: 0.35rem; 
     margin-bottom: 0.7rem ;
-    /* margin-left: 0.2rem; */
+    margin-left: 0.2rem;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
     outline: none;
 }
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* #search-input {
+    width: 40rem;
+    height: 3.2rem;
+    padding: 10px;
+    border-radius: 1.2rem;
+    border: 2px solid beige;
+    font-size: 1.3rem;
+    outline: none;
+    box-shadow: 6px 15px 33px 0px rgba(0,0,0,0.35);
+    background-color: #959595;
+    color: #000000;
+    transition: border-color 0.3s;
+    font-weight: 350;
+    font-family: 'Space Grotesk', sans-serif;
+
+} */
+
+#college::placeholder {
+    color: #999;
+}
+
+#college:focus {
+    border-color: #c0c0c0;
+}
+
+#search-results {
+    list-style: none;
+    padding: 0px;
+    margin-top: -0.7rem;
+    margin-left: 0.4rem;
+    width: 30.5rem;
+    max-height: 8rem;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* position: absolute; */
+    z-index: 1;
+    background-color: #fff;
+    overflow: auto;
+}
+#search-results li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#search-results li:last-child {
+    border-bottom: none;
+}
+
+#search-results li:hover {
+    background-color:#dcdcdc;
+}
+
 #signup-btn-container{
     width:30rem ;
 }
