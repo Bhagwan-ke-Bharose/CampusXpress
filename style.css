@@ -229,7 +229,7 @@ label {
 .box {
     margin: 0;
     width: 40%;
-    height: 6rem;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
